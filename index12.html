@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Khảo sát trải nghiệm sử dụng web của khách hàng</h3>
+        <form>
+            <div>
+                <label for = "name">Tên khách hàng:</label>
+            <input type = "text" id = "name" name = "name">
+            </div>
+            <p> Giới tính:
+                <input type = "radio" id = "male" name = "Gender" value="male"> <!--type: radio cần có giá trị value để gửi giá trị chọn về cho sever-->
+                <label for = "male"> Nam</label> <!--dấu chọn nằm bên trái -- đổi label xuống-->
+
+                <input type = "radio" id = "female" name = "Gender" value="female">
+                <label for = "female"> Nữ</label>
+                
+                <input type = "radio" id = "other" name = "Gender" value="other">
+                <label for = "other"> Khác</label>
+            </p>
+            <p> Mức độ hài lòng:
+                <input type = "radio" id = "bad" name = "attitude" value="bad"> <!--type: radio cần có giá trị value để gửi giá trị chọn về cho sever-->
+                <label for = "bad"> Chưa hài lòng</label> <!--dấu chọn nằm bên trái -- đổi label xuống-->
+
+                <input type = "radio" id = "average" name = "attitude" value="average">
+                <label for = "average"> Hài lòng</label>
+                
+                <input type = "radio" id = "good" name = "attitude" value="good">
+                <label for = "good"> Tốt</label>
+            </p>
+</body>
+</html>

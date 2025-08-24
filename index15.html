@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Thanh toán hóa đơn hàng</h3>
+        <form>
+            <div>
+                <label for ="name">Họ tên khách hàng:</label>
+                <input type="text" id="name" name="name">
+                
+                
+            </div>
+            <div>
+                <label for = "phone">Số điện thoại:</label>
+                <input type = "tel" id = "phone" name = "phone">
+            </div>
+            <div>
+                <label for = "address">Địa chỉ:</label>
+                <input type = "text" id = "address" name = "address">
+            </div>
+            <div>
+                <label>Hình thức thanh toán:</label>
+                <input type="radio" id="Apple Pay" name="payment" value="Apple Pay" >
+                <label for="Apple Pay">Apple Pay</label><br>
+                <input type="radio" id="card" name="payment" value="card">
+                <label for="card">Thẻ tín dụng / Thẻ ghi nợ</label><br>
+                <input type="radio" id="paypal" name="payment" value="Momo">
+                <label for="Momo">Momo</label>
+            </div>
+            <input type = "submit" value = "Thanh toán">
+        </form>
+</body>
+</html>
